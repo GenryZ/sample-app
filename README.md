@@ -29,3 +29,5 @@ $ rails server
 ```
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+
+Dont forget when deploying on heroku delete the gem sqlite3 from all gems!! IMPORTANT!!! 
