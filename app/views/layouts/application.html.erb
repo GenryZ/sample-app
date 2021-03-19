@@ -3,19 +3,13 @@
   <head>
    <title><%= full_title(yield(:title)) %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    
-    <!-- Stylesheet for all media -->
-    <!-- stylesheet_link_tag is a function with 2 arguments -->
-    <!-- application -> its a first argument -->
-    <!-- and second argument is a hash -->
-    <!-- If hash is last argument in a function, curly braces are optional -->
-    <!-- {media: 'all', 'data-turbolinks-track': 'reload'} -->
-
+                                                              
    
 
     <!-- Partials (look in layouts files with _) -->
 
     <%= render 'layouts/rails_default' %> 
+    <!-- _shim_partial -->
     <%= render 'layouts/shim' %>
 
   </head>
